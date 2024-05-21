@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="GestorVentas" Class="LoginBibliotecaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-MIJH44D\SQLSADAN;Initial Catalog=GestorVentas;Integrated Security=True;Encrypt=True;Trust Server Certificate=True" SettingsObjectName="Login.Properties.Settings" SettingsPropertyName="LoginConLinq" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Cliente" Member="Cliente">
+    <Type Name="Cliente">
+      <Column Name="IdCliente" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Telefono" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Correo" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="DNI" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Cliente_Ticket" Member="Ticket" ThisKey="IdCliente" OtherKey="IdCliente" Type="Ticket" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Libro" Member="Libro">
+    <Type Name="Libro">
+      <Column Name="IdLibro" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NombreLibro" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Autor" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Genero" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Libro_Ticket" Member="Ticket" ThisKey="IdLibro" OtherKey="IdLibro" Type="Ticket" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Ticket" Member="Ticket">
+    <Type Name="Ticket">
+      <Column Name="IdTicket" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IdCliente" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IdLibro" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Monto" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FechaCompra" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IdUsuario" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Cliente_Ticket" Member="Cliente" ThisKey="IdCliente" OtherKey="IdCliente" Type="Cliente" IsForeignKey="true" />
+      <Association Name="Libro_Ticket" Member="Libro" ThisKey="IdLibro" OtherKey="IdLibro" Type="Libro" IsForeignKey="true" />
+      <Association Name="Usuario_Ticket" Member="Usuario" ThisKey="IdUsuario" OtherKey="IdUsuario" Type="Usuario" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Usuario" Member="Usuario">
+    <Type Name="Usuario">
+      <Column Name="IdUsuario" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NombreUsuario" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Usuario_Ticket" Member="Ticket" ThisKey="IdUsuario" OtherKey="IdUsuario" Type="Ticket" />
+    </Type>
+  </Table>
+</Database>

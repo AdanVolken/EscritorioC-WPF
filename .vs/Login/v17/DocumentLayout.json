@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F72743E8-3481-4C75-9707-9A2949EBF717}|Login\\Login.csproj|c:\\users\\adanv\\onedrive\\escritorio\\programacion\\lenguajes\\c#\\login\\login\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{F72743E8-3481-4C75-9707-9A2949EBF717}|Login\\Login.csproj|solutionrelative:login\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F72743E8-3481-4C75-9707-9A2949EBF717}|Login\\Login.csproj|c:\\users\\adanv\\onedrive\\escritorio\\programacion\\lenguajes\\c#\\login\\login\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F72743E8-3481-4C75-9707-9A2949EBF717}|Login\\Login.csproj|solutionrelative:login\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F72743E8-3481-4C75-9707-9A2949EBF717}|Login\\Login.csproj|c:\\users\\adanv\\onedrive\\escritorio\\programacion\\lenguajes\\c#\\login\\login\\view\\paginaticket.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F72743E8-3481-4C75-9707-9A2949EBF717}|Login\\Login.csproj|solutionrelative:login\\view\\paginaticket.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F72743E8-3481-4C75-9707-9A2949EBF717}|Login\\Login.csproj|C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\login\\view\\paginaticket.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F72743E8-3481-4C75-9707-9A2949EBF717}|Login\\Login.csproj|solutionrelative:login\\view\\paginaticket.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F72743E8-3481-4C75-9707-9A2949EBF717}|Login\\Login.csproj|C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\login\\model\\paginaticketmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F72743E8-3481-4C75-9707-9A2949EBF717}|Login\\Login.csproj|solutionrelative:login\\model\\paginaticketmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F72743E8-3481-4C75-9707-9A2949EBF717}|Login\\Login.csproj|C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\login\\view\\paginacliente.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F72743E8-3481-4C75-9707-9A2949EBF717}|Login\\Login.csproj|solutionrelative:login\\view\\paginacliente.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F72743E8-3481-4C75-9707-9A2949EBF717}|Login\\Login.csproj|C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\login\\model\\paginaclientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F72743E8-3481-4C75-9707-9A2949EBF717}|Login\\Login.csproj|solutionrelative:login\\model\\paginaclientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F72743E8-3481-4C75-9707-9A2949EBF717}|Login\\Login.csproj|C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\login\\view\\principalpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{F72743E8-3481-4C75-9707-9A2949EBF717}|Login\\Login.csproj|solutionrelative:login\\view\\principalpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F72743E8-3481-4C75-9707-9A2949EBF717}|Login\\Login.csproj|C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\login\\view\\paginacliente.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F72743E8-3481-4C75-9707-9A2949EBF717}|Login\\Login.csproj|solutionrelative:login\\view\\paginacliente.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\Login\\.gitignore",
+              "RelativeDocumentMoniker": "Login\\.gitignore",
+              "ToolTip": "C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\Login\\.gitignore",
+              "RelativeToolTip": "Login\\.gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAEAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG/SURBVDhPrZRNTgIxFMerDIaEhHgU97JxwUKGGaNeQJdyCY0XUBDWGhg4AB\u002BuvQk7OQCRFTP1fXWmMxUMCT94ee177eu/LVQdFK31kTSJ0WgEIa0SMJ2A6QTHcF9iicQqlYpa/6zv2\u002B2HD5nuEkWR/l4udRzHZBtjGzFor1YrPR6P9WKx0MNhpN96vTuZThyLJ1AJLK/iJFFxjBanBsXIozqkWq2qev1c1Wq19063e0ZBwBNP4JaQ6WRC/i8ajQb5wWBAvnxyghpOqQPkC8L5IEEQKjgxaqOTFsCd65tb6nmlkur1\u002BxwXCgX58KfT7QptwvCK52wrSLcJvtUKOABkQ6HFXwbGsmMRBkchzpjNphLZDSrEn5G1qnsp\u002BPEtheloXouRnXDTTjhb5tXmeyg0IgzuliHp\u002By0OANbiOCDXp1IYo3mMUxBT8/mMA/8QhGH6ZzC4Zwi5ZqoQB9M3h62I/\u002B/SAQpniBmtPvdQyGeYUdgyX8pl05eIBSxmTzQYEYbc42AuJQWLGJNQEcrJG4A4BTHneSW2sqfKOyybkxXMPbAvrx3IsyLzkPJFmUcWYtDntjG6lIvnp8cvKXNIlPoFvstpJRlQPIAAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-05-21T19:57:44.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\Login\\App.xaml",
+              "RelativeDocumentMoniker": "Login\\App.xaml",
+              "ToolTip": "C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\Login\\App.xaml",
+              "RelativeToolTip": "Login\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-21T19:47:04.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaginaTicketModel.cs",
+              "DocumentMoniker": "C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\Login\\Model\\PaginaTicketModel.cs",
+              "RelativeDocumentMoniker": "Login\\Model\\PaginaTicketModel.cs",
+              "ToolTip": "C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\Login\\Model\\PaginaTicketModel.cs",
+              "RelativeToolTip": "Login\\Model\\PaginaTicketModel.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:31:33.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "View\\PaginaTicket.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\Login\\View\\PaginaTicket.xaml.cs",
+              "RelativeDocumentMoniker": "Login\\View\\PaginaTicket.xaml.cs",
+              "ToolTip": "C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\Login\\View\\PaginaTicket.xaml.cs",
+              "RelativeToolTip": "Login\\View\\PaginaTicket.xaml.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAcwFoAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:40:20.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaginaTicket.xaml",
+              "DocumentMoniker": "C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\Login\\View\\PaginaTicket.xaml",
+              "RelativeDocumentMoniker": "Login\\View\\PaginaTicket.xaml",
+              "ToolTip": "C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\Login\\View\\PaginaTicket.xaml",
+              "RelativeToolTip": "Login\\View\\PaginaTicket.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-21T12:39:35.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PrincipalPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\Login\\View\\PrincipalPage.xaml.cs",
+              "RelativeDocumentMoniker": "Login\\View\\PrincipalPage.xaml.cs",
+              "ToolTip": "C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\Login\\View\\PrincipalPage.xaml.cs",
+              "RelativeToolTip": "Login\\View\\PrincipalPage.xaml.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAwwBoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T20:22:50.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PaginaClienteModel.cs",
+              "DocumentMoniker": "C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\Login\\Model\\PaginaClienteModel.cs",
+              "RelativeDocumentMoniker": "Login\\Model\\PaginaClienteModel.cs",
+              "ToolTip": "C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\Login\\Model\\PaginaClienteModel.cs",
+              "RelativeToolTip": "Login\\Model\\PaginaClienteModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T13:50:18.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaginaCliente.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\Login\\View\\PaginaCliente.xaml.cs",
+              "RelativeDocumentMoniker": "Login\\View\\PaginaCliente.xaml.cs",
+              "ToolTip": "C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\Login\\View\\PaginaCliente.xaml.cs",
+              "RelativeToolTip": "Login\\View\\PaginaCliente.xaml.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwCwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T13:12:44.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaginaCliente.xaml",
+              "DocumentMoniker": "C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\Login\\View\\PaginaCliente.xaml",
+              "RelativeDocumentMoniker": "Login\\View\\PaginaCliente.xaml",
+              "ToolTip": "C:\\Users\\adanv\\OneDrive\\Escritorio\\Programacion\\Lenguajes\\c#\\Login\\Login\\View\\PaginaCliente.xaml",
+              "RelativeToolTip": "Login\\View\\PaginaCliente.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-16T20:02:30.057Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

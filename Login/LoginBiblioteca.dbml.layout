@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LoginBiblioteca">
+  <DataContextMoniker Name="/LoginBibliotecaDataContext" />
+  <nestedChildShapes>
+    <classShape Id="3de3fa5e-91e1-4d5a-85cf-c0f33b897525" absoluteBounds="4.125, 0.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/LoginBibliotecaDataContext/Cliente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b135fdf6-7704-4ea5-a311-3c572eed657d" absoluteBounds="4.14, 0.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5bb21aca-234a-4b1f-99cc-f47c8579e0f8" absoluteBounds="0.5, 3.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/LoginBibliotecaDataContext/Libro" />
+      <nestedChildShapes>
+        <elementListCompartment Id="04f4c7d6-ea3b-47cc-b6e2-003a4d69078e" absoluteBounds="0.51500000000000012, 3.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3c5ce58e-9f2d-431e-a1c3-1a0346018840" absoluteBounds="4, 2.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/LoginBibliotecaDataContext/Ticket" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cde111cd-b2c5-4253-a338-3e732448569c" absoluteBounds="4.015, 3.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.0625 : 2.4631982421875); (5.0625 : 2.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LoginBibliotecaDataContext/Cliente/Cliente_Ticket" />
+      <nodes>
+        <classShapeMoniker Id="3de3fa5e-91e1-4d5a-85cf-c0f33b897525" />
+        <classShapeMoniker Id="3c5ce58e-9f2d-431e-a1c3-1a0346018840" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 3.91429768880208); (4 : 3.91429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LoginBibliotecaDataContext/Libro/Libro_Ticket" />
+      <nodes>
+        <classShapeMoniker Id="5bb21aca-234a-4b1f-99cc-f47c8579e0f8" />
+        <classShapeMoniker Id="3c5ce58e-9f2d-431e-a1c3-1a0346018840" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="2de7a7ce-2eee-49dd-813a-989ce35961d7" absoluteBounds="7.625, 3, 2, 1.3862939453125">
+      <DataClassMoniker Name="/LoginBibliotecaDataContext/Usuario" />
+      <nestedChildShapes>
+        <elementListCompartment Id="418457eb-30ee-4a69-a492-f048d9039a8d" absoluteBounds="7.6400000000000006, 3.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.625 : 3.69314697265625); (6 : 3.69314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LoginBibliotecaDataContext/Usuario/Usuario_Ticket" />
+      <nodes>
+        <classShapeMoniker Id="2de7a7ce-2eee-49dd-813a-989ce35961d7" />
+        <classShapeMoniker Id="3c5ce58e-9f2d-431e-a1c3-1a0346018840" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
